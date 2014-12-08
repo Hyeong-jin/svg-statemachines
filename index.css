@@ -3,31 +3,31 @@ body {
   font-size: 16px;
   line-height: 1.42; }
 
-.state-maschine {
+.state-machine {
   padding: 20px;
   border: 1px solid #666;
   background-image: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) 1px, transparent 1px, transparent 100%);
   background-image: repeating-radial-gradient(center center, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) 1px, transparent 1px, transparent 100%);
   background-size: 9px 9px; }
-  .state-maschine .connection {
+  .state-machine .connection {
     stroke: red;
     stroke-width: 2px;
     fill: none;
     marker-start: url(#markerCircle);
     marker-end: url(#markerBox); }
-    .state-maschine .connection:hover {
+    .state-machine .connection:hover {
       stroke-width: 4px; }
-  .state-maschine .area {
+  .state-machine .area {
     fill: blue; }
-  .state-maschine #markerCircle {
+  .state-machine #markerCircle {
     stroke: #fff;
     stroke-width: 0.5px;
     fill: #000; }
-  .state-maschine #markerBox {
+  .state-machine #markerBox {
     stroke: #000;
     stroke-width: 1px;
     fill: #fff; }
-  .state-maschine #markerArrow {
+  .state-machine #markerArrow {
     fill: #000; }
 
 #container h1 {
