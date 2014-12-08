@@ -2,7 +2,7 @@
   "name": "svg-statemaschines",
   "version": "0.0.1",
   "private": true,
-  "description": "",
+  "description": "Display state machine like graphs using React.js and SVG",
   "scripts": {
     "eslint": "eslint *.js scripts/*.js src/*.js src/**/*.js",
     "jsxlint": "jsxhint src/*.{js,jsx} src/**/*.{js,jsx}",
