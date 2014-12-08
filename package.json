@@ -5,9 +5,9 @@
   "description": "Display state machine like graphs using React.js and SVG",
   "scripts": {
     "eslint": "eslint *.js scripts/*.js src/*.js src/**/*.js",
-    "jsxlint": "jsxhint src/*.{js,jsx} src/**/*.{js,jsx}",
+    "jsxlint": "jsxhint src/*.js src/*.jsx src/**/*.js src/**/*.jsx",
     "lint": "npm run eslint && npm run jsxlint",
-    "mocha": "mocha src/test.js src/**/test.{js,jsx}",
+    "mocha": "mocha src/test.js src/**/test.jsx",
     "build": "gulp build",
     "compile": "gulp compile",
     "watch": "gulp watch",
