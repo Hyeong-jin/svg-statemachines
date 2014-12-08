@@ -1,0 +1,44 @@
+.state-maschine {
+  padding: 20px;
+  border: 1px solid #666;
+  background-image: repeating-radial-gradient(
+    center center,
+    rgba(0,0,0,.15), rgba(0,0,0,.15) 1px,
+    transparent 1px, transparent 100%
+  );
+  background-size: 9px 9px;
+
+  .connection {
+    stroke: rgb(255,0,0);
+    stroke-width: 2px;
+    fill: none;
+    marker-start: url(#markerCircle);
+    marker-end: url(#markerBox);
+
+    &:hover {
+      stroke-width: 4px;
+    }
+  }
+
+  .area {
+    fill: blue;
+  }
+
+  // Markers
+
+  #markerCircle {
+    stroke: #fff;
+    stroke-width: 0.5px;
+    fill: #000;
+  }
+
+  #markerBox {
+    stroke: #000;
+    stroke-width: 1px;
+    fill: #fff;
+  }
+
+  #markerArrow {
+    fill: #000;
+  }
+}

@@ -1,0 +1,21 @@
+{%
+  var html = o.htmlWebpackPlugin.options;
+  var webpack = o.webpack;
+%}<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>{%=html.title%}</title>
+
+  <link rel="stylesheet" href="index.css"/>
+</head>
+<body class="{%= html.chunk %}">
+  <div id="container">{% if (html.serverRenderedContent) { %}<%= data.html %>{% } else { %}&nbsp;{% } %}</div>
+
+  {%# html.include(webpack.assetsByChunkName, 'vendor', 'js') %}
+  {%# html.include(webpack.assetsByChunkName, html.chunk, 'js') %}
+  {% if (html.env.dev_server) { %}
+  {%# html.include(webpack.assetsByChunkName, 'hot', 'js') %}
+  {% } %}
+</body>
+</html>
