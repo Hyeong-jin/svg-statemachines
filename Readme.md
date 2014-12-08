@@ -1,10 +1,10 @@
-# SVG State Maschine
+# SVG State Machine
 
 Display state machine like graphs using React.js and SVG.
 
 [**Demo**](http://killercup.github.io/svg-statemachines/)
 
-[![Build Status](https://travis-ci.org/killercup/svg-statemaschines.svg)](https://travis-ci.org/killercup/svg-statemaschines)
+[![Build Status](https://travis-ci.org/killercup/svg-statemachines.svg)](https://travis-ci.org/killercup/svg-statemachines)
 
 ## Getting Started With Development
 

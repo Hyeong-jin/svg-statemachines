@@ -1,5 +1,5 @@
 {
-  "name": "svg-statemaschines",
+  "name": "svg-statemachines",
   "version": "0.0.1",
   "private": true,
   "description": "Display state machine like graphs using React.js and SVG",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/killercup/svg-statemaschines.git"
+    "url": "https://github.com/killercup/svg-statemachines.git"
   },
   "author": "Pascal Hertleif <killercup@gmail.com> (http://pascalhertleif.de/)",
   "license": "MIT",

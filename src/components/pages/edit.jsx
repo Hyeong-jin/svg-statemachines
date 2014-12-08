@@ -1,6 +1,6 @@
 var React = require('react/addons');
 
-var StateMaschine = require('../state-machine');
+var StateMachine = require('../state-machine');
 var StateStore = require('../../stores/states');
 
 var EditView = React.createClass({
@@ -23,7 +23,7 @@ var EditView = React.createClass({
 
     return (
       <article>
-        <StateMaschine key="state-maschine" states={states} />
+        <StateMachine key="state-machine" states={states} />
       </article>
     );
   }

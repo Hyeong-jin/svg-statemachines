@@ -6,7 +6,7 @@ var Connection = require('./connection');
 
 var formatConnections = require('./format-connections');
 
-var StateMaschine = React.createClass({
+var StateMachine = React.createClass({
   propTypes: {
     states: T.arrayOf(T.shape({
       id: T.string.isRequired,
@@ -36,7 +36,7 @@ var StateMaschine = React.createClass({
     .map((c) => <Connection {...c} key={c.id} />);
 
     return (
-      <svg className="state-maschine" width="800" height="500">
+      <svg className="state-machine" width="800" height="500">
         <defs dangerouslySetInnerHTML={{__html: this.markers}}/>
         {states}
         {connections}
@@ -45,4 +45,4 @@ var StateMaschine = React.createClass({
   }
 });
 
-module.exports = StateMaschine;
+module.exports = StateMachine;
